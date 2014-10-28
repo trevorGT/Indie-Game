@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21130C319FC36D9008A3D7A /* icon_baochun.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130A419FC36D9008A3D7A /* icon_baochun.png */; };
+		D21130C419FC36D9008A3D7A /* icon_qzone.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130A519FC36D9008A3D7A /* icon_qzone.png */; };
+		D21130C519FC36D9008A3D7A /* icon_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130A619FC36D9008A3D7A /* icon_wechat.png */; };
+		D21130C619FC36D9008A3D7A /* yinying.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130A719FC36D9008A3D7A /* yinying.png */; };
+		D21130C719FC36D9008A3D7A /* 大图模式_PxCook.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130A819FC36D9008A3D7A /* 大图模式_PxCook.png */; };
+		D21130C819FC36D9008A3D7A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130AA19FC36D9008A3D7A /* bg.png */; };
+		D21130C919FC36D9008A3D7A /* button_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130AB19FC36D9008A3D7A /* button_setting.png */; };
+		D21130CA19FC36D9008A3D7A /* button_xinqing.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130AC19FC36D9008A3D7A /* button_xinqing.png */; };
+		D21130CB19FC36D9008A3D7A /* button_zhuanji.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130AD19FC36D9008A3D7A /* button_zhuanji.png */; };
+		D21130CC19FC36D9008A3D7A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130AE19FC36D9008A3D7A /* logo.png */; };
+		D21130CD19FC36D9008A3D7A /* 首页_PxCook.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130AF19FC36D9008A3D7A /* 首页_PxCook.png */; };
+		D21130CE19FC36D9008A3D7A /* banner-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B119FC36D9008A3D7A /* banner-1.png */; };
+		D21130CF19FC36D9008A3D7A /* banner-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B219FC36D9008A3D7A /* banner-2.png */; };
+		D21130D019FC36D9008A3D7A /* banner-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B319FC36D9008A3D7A /* banner-3.png */; };
+		D21130D119FC36D9008A3D7A /* banner-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B419FC36D9008A3D7A /* banner-4.png */; };
+		D21130D219FC36D9008A3D7A /* 专辑选图_PxCook.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B519FC36D9008A3D7A /* 专辑选图_PxCook.png */; };
+		D21130D319FC36D9008A3D7A /* button_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B719FC36D9008A3D7A /* button_off.png */; };
+		D21130D419FC36D9008A3D7A /* button_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B819FC36D9008A3D7A /* button_on.png */; };
+		D21130D519FC36D9008A3D7A /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130B919FC36D9008A3D7A /* icon_back.png */; };
+		D21130D619FC36D9008A3D7A /* icon_queding.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130BA19FC36D9008A3D7A /* icon_queding.png */; };
+		D21130D719FC36D9008A3D7A /* 心情标签_PxCook.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130BB19FC36D9008A3D7A /* 心情标签_PxCook.png */; };
+		D21130D819FC36D9008A3D7A /* 输入心情_PxCook.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130BD19FC36D9008A3D7A /* 输入心情_PxCook.png */; };
+		D21130D919FC36D9008A3D7A /* icon_left.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130BF19FC36D9008A3D7A /* icon_left.png */; };
+		D21130DA19FC36D9008A3D7A /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130C019FC36D9008A3D7A /* tips.png */; };
+		D21130DB19FC36D9008A3D7A /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130C119FC36D9008A3D7A /* topbar.png */; };
+		D21130DC19FC36D9008A3D7A /* 瀑布流_PxCook.png in Resources */ = {isa = PBXBuildFile; fileRef = D21130C219FC36D9008A3D7A /* 瀑布流_PxCook.png */; };
+		D243693E19FCB8420062722C /* 闪屏.png in Resources */ = {isa = PBXBuildFile; fileRef = D243693D19FCB8420062722C /* 闪屏.png */; };
+		D243694019FCB9270062722C /* icon-120.120.png in Resources */ = {isa = PBXBuildFile; fileRef = D243693F19FCB9270062722C /* icon-120.120.png */; };
+		D243EECE19FBB3AF00296EBD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D243EECD19FBB3AF00296EBD /* TableViewController.swift */; };
+		D24C87EC19FC4DBE0047A9CA /* SpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24C87EB19FC4DBE0047A9CA /* SpecialViewController.swift */; };
+		D24C87EE19FC626D0047A9CA /* LargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24C87ED19FC626D0047A9CA /* LargeViewController.swift */; };
+		D2541C5F19FBCE8A003DDF5F /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2541C5E19FBCE8A003DDF5F /* CustomTableViewCell.xib */; };
+		D2541C6119FBD308003DDF5F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2541C6019FBD308003DDF5F /* CustomTableViewCell.swift */; };
+		D2867EF619FB3DFF008EBB43 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2867EF519FB3DFF008EBB43 /* TextViewController.swift */; };
+		D28BB27D19FB85B70076343B /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28BB27C19FB85B70076343B /* TagViewController.swift */; };
+		D29148FE19FBE44800309E8A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29148FD19FBE44800309E8A /* CollectionViewController.swift */; };
+		D291490219FBE96E00309E8A /* CustomColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291490119FBE96E00309E8A /* CustomColletionViewCell.swift */; };
+		D291490B19FC149300309E8A /* AnsynImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291490A19FC149300309E8A /* AnsynImageView.swift */; };
+		D2B581C619F94F9A0031A745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B581C519F94F9A0031A745 /* AppDelegate.swift */; };
+		D2B581C819F94F9A0031A745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B581C719F94F9A0031A745 /* ViewController.swift */; };
+		D2B581CB19F94F9A0031A745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B581C919F94F9A0031A745 /* Main.storyboard */; };
+		D2B581CD19F94F9A0031A745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B581CC19F94F9A0031A745 /* Images.xcassets */; };
+		D2B581D019F94F9A0031A745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B581CE19F94F9A0031A745 /* LaunchScreen.xib */; };
+		D2B581DC19F94F9A0031A745 /* SorryMitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B581DB19F94F9A0031A745 /* SorryMitoTests.swift */; };
+		D2B581E619F950620031A745 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B581E519F950620031A745 /* ImageViewController.swift */; };
+		D2B581F419F95AC00031A745 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B581F119F95AC00031A745 /* libWeChatSDK.a */; };
+		D2B581F619F95C6B0031A745 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B581F519F95C6B0031A745 /* CoreGraphics.framework */; };
+		D2B581F819F95C710031A745 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B581F719F95C710031A745 /* UIKit.framework */; };
+		D2B581FA19F95C770031A745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B581F919F95C770031A745 /* Foundation.framework */; };
+		D2B5822219F97D940031A745 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5822119F97D940031A745 /* CoreLocation.framework */; };
+		D2B5822419F97D9B0031A745 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5822319F97D9B0031A745 /* Security.framework */; };
+		D2B5822619F97DA40031A745 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5822519F97DA40031A745 /* MobileCoreServices.framework */; };
+		D2B5822819F97DAC0031A745 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5822719F97DAC0031A745 /* CFNetwork.framework */; };
+		D2B5822A19F97DB10031A745 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5822919F97DB10031A745 /* SystemConfiguration.framework */; };
+		D2FC0D7719FA109000E9DDE7 /* SendMsgToWeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FC0D7619FA109000E9DDE7 /* SendMsgToWeChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2B581D619F94F9A0031A745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B581B819F94F9A0031A745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B581BF19F94F9A0031A745;
+			remoteInfo = SorryMito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21130A419FC36D9008A3D7A /* icon_baochun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_baochun.png; sourceTree = "<group>"; };
+		D21130A519FC36D9008A3D7A /* icon_qzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_qzone.png; sourceTree = "<group>"; };
+		D21130A619FC36D9008A3D7A /* icon_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_wechat.png; sourceTree = "<group>"; };
+		D21130A719FC36D9008A3D7A /* yinying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yinying.png; sourceTree = "<group>"; };
+		D21130A819FC36D9008A3D7A /* 大图模式_PxCook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大图模式_PxCook.png"; sourceTree = "<group>"; };
+		D21130AA19FC36D9008A3D7A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		D21130AB19FC36D9008A3D7A /* button_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_setting.png; sourceTree = "<group>"; };
+		D21130AC19FC36D9008A3D7A /* button_xinqing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_xinqing.png; sourceTree = "<group>"; };
+		D21130AD19FC36D9008A3D7A /* button_zhuanji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_zhuanji.png; sourceTree = "<group>"; };
+		D21130AE19FC36D9008A3D7A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D21130AF19FC36D9008A3D7A /* 首页_PxCook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页_PxCook.png"; sourceTree = "<group>"; };
+		D21130B119FC36D9008A3D7A /* banner-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-1.png"; sourceTree = "<group>"; };
+		D21130B219FC36D9008A3D7A /* banner-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-2.png"; sourceTree = "<group>"; };
+		D21130B319FC36D9008A3D7A /* banner-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-3.png"; sourceTree = "<group>"; };
+		D21130B419FC36D9008A3D7A /* banner-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-4.png"; sourceTree = "<group>"; };
+		D21130B519FC36D9008A3D7A /* 专辑选图_PxCook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "专辑选图_PxCook.png"; sourceTree = "<group>"; };
+		D21130B719FC36D9008A3D7A /* button_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_off.png; sourceTree = "<group>"; };
+		D21130B819FC36D9008A3D7A /* button_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_on.png; sourceTree = "<group>"; };
+		D21130B919FC36D9008A3D7A /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		D21130BA19FC36D9008A3D7A /* icon_queding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_queding.png; sourceTree = "<group>"; };
+		D21130BB19FC36D9008A3D7A /* 心情标签_PxCook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "心情标签_PxCook.png"; sourceTree = "<group>"; };
+		D21130BD19FC36D9008A3D7A /* 输入心情_PxCook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入心情_PxCook.png"; sourceTree = "<group>"; };
+		D21130BF19FC36D9008A3D7A /* icon_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_left.png; sourceTree = "<group>"; };
+		D21130C019FC36D9008A3D7A /* tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips.png; sourceTree = "<group>"; };
+		D21130C119FC36D9008A3D7A /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		D21130C219FC36D9008A3D7A /* 瀑布流_PxCook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瀑布流_PxCook.png"; sourceTree = "<group>"; };
+		D243693D19FCB8420062722C /* 闪屏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "闪屏.png"; sourceTree = "<group>"; };
+		D243693F19FCB9270062722C /* icon-120.120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.120.png"; sourceTree = "<group>"; };
+		D243EECD19FBB3AF00296EBD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D24C87EB19FC4DBE0047A9CA /* SpecialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialViewController.swift; sourceTree = "<group>"; };
+		D24C87ED19FC626D0047A9CA /* LargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeViewController.swift; sourceTree = "<group>"; };
+		D2541C5E19FBCE8A003DDF5F /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		D2541C6019FBD308003DDF5F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D2867EF519FB3DFF008EBB43 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		D28BB27C19FB85B70076343B /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		D29148FD19FBE44800309E8A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		D291490119FBE96E00309E8A /* CustomColletionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColletionViewCell.swift; sourceTree = "<group>"; };
+		D291490A19FC149300309E8A /* AnsynImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnsynImageView.swift; sourceTree = "<group>"; };
+		D2B581C019F94F9A0031A745 /* SorryMito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SorryMito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B581C419F94F9A0031A745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B581C519F94F9A0031A745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2B581C719F94F9A0031A745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2B581CA19F94F9A0031A745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2B581CC19F94F9A0031A745 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2B581CF19F94F9A0031A745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D2B581D519F94F9A0031A745 /* SorryMitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SorryMitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B581DA19F94F9A0031A745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B581DB19F94F9A0031A745 /* SorryMitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorryMitoTests.swift; sourceTree = "<group>"; };
+		D2B581E519F950620031A745 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D2B581EC19F959A20031A745 /* SorryMito-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SorryMito-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2B581F119F95AC00031A745 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		D2B581F219F95AC00031A745 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		D2B581F319F95AC00031A745 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		D2B581F519F95C6B0031A745 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2B581F719F95C710031A745 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2B581F919F95C770031A745 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2B5822119F97D940031A745 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D2B5822319F97D9B0031A745 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D2B5822519F97DA40031A745 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D2B5822719F97DAC0031A745 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D2B5822919F97DB10031A745 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D2FC0D7519FA109000E9DDE7 /* SendMsgToWeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMsgToWeChatViewController.h; sourceTree = "<group>"; };
+		D2FC0D7619FA109000E9DDE7 /* SendMsgToWeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMsgToWeChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B581BD19F94F9A0031A745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B5822A19F97DB10031A745 /* SystemConfiguration.framework in Frameworks */,
+				D2B5822819F97DAC0031A745 /* CFNetwork.framework in Frameworks */,
+				D2B5822619F97DA40031A745 /* MobileCoreServices.framework in Frameworks */,
+				D2B5822419F97D9B0031A745 /* Security.framework in Frameworks */,
+				D2B5822219F97D940031A745 /* CoreLocation.framework in Frameworks */,
+				D2B581FA19F95C770031A745 /* Foundation.framework in Frameworks */,
+				D2B581F819F95C710031A745 /* UIKit.framework in Frameworks */,
+				D2B581F619F95C6B0031A745 /* CoreGraphics.framework in Frameworks */,
+				D2B581F419F95AC00031A745 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B581D219F94F9A0031A745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21130A219FC36D9008A3D7A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D243693F19FCB9270062722C /* icon-120.120.png */,
+				D243693D19FCB8420062722C /* 闪屏.png */,
+				D21130A319FC36D9008A3D7A /* Large */,
+				D21130A919FC36D9008A3D7A /* First */,
+				D21130B019FC36D9008A3D7A /* Special */,
+				D21130B619FC36D9008A3D7A /* Tag */,
+				D21130BC19FC36D9008A3D7A /* Text */,
+				D21130BE19FC36D9008A3D7A /* WaterFlow */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D21130A319FC36D9008A3D7A /* Large */ = {
+			isa = PBXGroup;
+			children = (
+				D21130A419FC36D9008A3D7A /* icon_baochun.png */,
+				D21130A519FC36D9008A3D7A /* icon_qzone.png */,
+				D21130A619FC36D9008A3D7A /* icon_wechat.png */,
+				D21130A719FC36D9008A3D7A /* yinying.png */,
+				D21130A819FC36D9008A3D7A /* 大图模式_PxCook.png */,
+			);
+			name = Large;
+			path = Big;
+			sourceTree = "<group>";
+		};
+		D21130A919FC36D9008A3D7A /* First */ = {
+			isa = PBXGroup;
+			children = (
+				D21130AA19FC36D9008A3D7A /* bg.png */,
+				D21130AB19FC36D9008A3D7A /* button_setting.png */,
+				D21130AC19FC36D9008A3D7A /* button_xinqing.png */,
+				D21130AD19FC36D9008A3D7A /* button_zhuanji.png */,
+				D21130AE19FC36D9008A3D7A /* logo.png */,
+				D21130AF19FC36D9008A3D7A /* 首页_PxCook.png */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		D21130B019FC36D9008A3D7A /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				D21130B119FC36D9008A3D7A /* banner-1.png */,
+				D21130B219FC36D9008A3D7A /* banner-2.png */,
+				D21130B319FC36D9008A3D7A /* banner-3.png */,
+				D21130B419FC36D9008A3D7A /* banner-4.png */,
+				D21130B519FC36D9008A3D7A /* 专辑选图_PxCook.png */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		D21130B619FC36D9008A3D7A /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				D21130B719FC36D9008A3D7A /* button_off.png */,
+				D21130B819FC36D9008A3D7A /* button_on.png */,
+				D21130B919FC36D9008A3D7A /* icon_back.png */,
+				D21130BA19FC36D9008A3D7A /* icon_queding.png */,
+				D21130BB19FC36D9008A3D7A /* 心情标签_PxCook.png */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		D21130BC19FC36D9008A3D7A /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				D21130BD19FC36D9008A3D7A /* 输入心情_PxCook.png */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		D21130BE19FC36D9008A3D7A /* WaterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				D21130BF19FC36D9008A3D7A /* icon_left.png */,
+				D21130C019FC36D9008A3D7A /* tips.png */,
+				D21130C119FC36D9008A3D7A /* topbar.png */,
+				D21130C219FC36D9008A3D7A /* 瀑布流_PxCook.png */,
+			);
+			path = WaterFlow;
+			sourceTree = "<group>";
+		};
+		D291490319FBEC9D00309E8A /* CustiomTable */ = {
+			isa = PBXGroup;
+			children = (
+				D2541C6019FBD308003DDF5F /* CustomTableViewCell.swift */,
+				D243EECD19FBB3AF00296EBD /* TableViewController.swift */,
+				D2541C5E19FBCE8A003DDF5F /* CustomTableViewCell.xib */,
+			);
+			name = CustiomTable;
+			sourceTree = "<group>";
+		};
+		D291490419FBEC9F00309E8A /* CustomColletion */ = {
+			isa = PBXGroup;
+			children = (
+				D29148FD19FBE44800309E8A /* CollectionViewController.swift */,
+				D291490119FBE96E00309E8A /* CustomColletionViewCell.swift */,
+			);
+			name = CustomColletion;
+			sourceTree = "<group>";
+		};
+		D291490519FBECC900309E8A /* Content ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D2B581C719F94F9A0031A745 /* ViewController.swift */,
+				D24C87ED19FC626D0047A9CA /* LargeViewController.swift */,
+				D24C87EB19FC4DBE0047A9CA /* SpecialViewController.swift */,
+				D28BB27C19FB85B70076343B /* TagViewController.swift */,
+				D2B581E519F950620031A745 /* ImageViewController.swift */,
+				D2867EF519FB3DFF008EBB43 /* TextViewController.swift */,
+			);
+			name = "Content ViewController";
+			sourceTree = "<group>";
+		};
+		D2B581B719F94F9A0031A745 = {
+			isa = PBXGroup;
+			children = (
+				D2B581F919F95C770031A745 /* Foundation.framework */,
+				D2B5822919F97DB10031A745 /* SystemConfiguration.framework */,
+				D2B5822719F97DAC0031A745 /* CFNetwork.framework */,
+				D2B5822519F97DA40031A745 /* MobileCoreServices.framework */,
+				D2B5822319F97D9B0031A745 /* Security.framework */,
+				D2B5822119F97D940031A745 /* CoreLocation.framework */,
+				D2B581F719F95C710031A745 /* UIKit.framework */,
+				D2B581F519F95C6B0031A745 /* CoreGraphics.framework */,
+				D2B581C219F94F9A0031A745 /* SorryMito */,
+				D2B581D819F94F9A0031A745 /* SorryMitoTests */,
+				D2B581C119F94F9A0031A745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B581C119F94F9A0031A745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B581C019F94F9A0031A745 /* SorryMito.app */,
+				D2B581D519F94F9A0031A745 /* SorryMitoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B581C219F94F9A0031A745 /* SorryMito */ = {
+			isa = PBXGroup;
+			children = (
+				D21130A219FC36D9008A3D7A /* Image */,
+				D291490519FBECC900309E8A /* Content ViewController */,
+				D291490419FBEC9F00309E8A /* CustomColletion */,
+				D291490319FBEC9D00309E8A /* CustiomTable */,
+				D2B581E719F9587B0031A745 /* SDKExport */,
+				D2B581C519F94F9A0031A745 /* AppDelegate.swift */,
+				D2B581C919F94F9A0031A745 /* Main.storyboard */,
+				D2B581CC19F94F9A0031A745 /* Images.xcassets */,
+				D2B581CE19F94F9A0031A745 /* LaunchScreen.xib */,
+				D2B581C319F94F9A0031A745 /* Supporting Files */,
+				D291490A19FC149300309E8A /* AnsynImageView.swift */,
+			);
+			path = SorryMito;
+			sourceTree = "<group>";
+		};
+		D2B581C319F94F9A0031A745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B581C419F94F9A0031A745 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B581D819F94F9A0031A745 /* SorryMitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B581DB19F94F9A0031A745 /* SorryMitoTests.swift */,
+				D2B581D919F94F9A0031A745 /* Supporting Files */,
+			);
+			path = SorryMitoTests;
+			sourceTree = "<group>";
+		};
+		D2B581D919F94F9A0031A745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B581DA19F94F9A0031A745 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2B581E719F9587B0031A745 /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				D2FC0D7519FA109000E9DDE7 /* SendMsgToWeChatViewController.h */,
+				D2FC0D7619FA109000E9DDE7 /* SendMsgToWeChatViewController.m */,
+				D2B581F119F95AC00031A745 /* libWeChatSDK.a */,
+				D2B581F219F95AC00031A745 /* WXApi.h */,
+				D2B581F319F95AC00031A745 /* WXApiObject.h */,
+				D2B581EC19F959A20031A745 /* SorryMito-Bridging-Header.h */,
+			);
+			name = SDKExport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B581BF19F94F9A0031A745 /* SorryMito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B581DF19F94F9A0031A745 /* Build configuration list for PBXNativeTarget "SorryMito" */;
+			buildPhases = (
+				D2B581BC19F94F9A0031A745 /* Sources */,
+				D2B581BD19F94F9A0031A745 /* Frameworks */,
+				D2B581BE19F94F9A0031A745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SorryMito;
+			productName = SorryMito;
+			productReference = D2B581C019F94F9A0031A745 /* SorryMito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B581D419F94F9A0031A745 /* SorryMitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B581E219F94F9A0031A745 /* Build configuration list for PBXNativeTarget "SorryMitoTests" */;
+			buildPhases = (
+				D2B581D119F94F9A0031A745 /* Sources */,
+				D2B581D219F94F9A0031A745 /* Frameworks */,
+				D2B581D319F94F9A0031A745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B581D719F94F9A0031A745 /* PBXTargetDependency */,
+			);
+			name = SorryMitoTests;
+			productName = SorryMitoTests;
+			productReference = D2B581D519F94F9A0031A745 /* SorryMitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B581B819F94F9A0031A745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = trevor;
+				TargetAttributes = {
+					D2B581BF19F94F9A0031A745 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					D2B581D419F94F9A0031A745 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = D2B581BF19F94F9A0031A745;
+					};
+				};
+			};
+			buildConfigurationList = D2B581BB19F94F9A0031A745 /* Build configuration list for PBXProject "SorryMito" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2B581B719F94F9A0031A745;
+			productRefGroup = D2B581C119F94F9A0031A745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B581BF19F94F9A0031A745 /* SorryMito */,
+				D2B581D419F94F9A0031A745 /* SorryMitoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B581BE19F94F9A0031A745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21130C819FC36D9008A3D7A /* bg.png in Resources */,
+				D21130C719FC36D9008A3D7A /* 大图模式_PxCook.png in Resources */,
+				D21130CA19FC36D9008A3D7A /* button_xinqing.png in Resources */,
+				D21130CE19FC36D9008A3D7A /* banner-1.png in Resources */,
+				D21130C919FC36D9008A3D7A /* button_setting.png in Resources */,
+				D21130CC19FC36D9008A3D7A /* logo.png in Resources */,
+				D2B581CB19F94F9A0031A745 /* Main.storyboard in Resources */,
+				D21130D819FC36D9008A3D7A /* 输入心情_PxCook.png in Resources */,
+				D21130DB19FC36D9008A3D7A /* topbar.png in Resources */,
+				D243693E19FCB8420062722C /* 闪屏.png in Resources */,
+				D21130D019FC36D9008A3D7A /* banner-3.png in Resources */,
+				D21130D219FC36D9008A3D7A /* 专辑选图_PxCook.png in Resources */,
+				D2B581D019F94F9A0031A745 /* LaunchScreen.xib in Resources */,
+				D243694019FCB9270062722C /* icon-120.120.png in Resources */,
+				D21130C319FC36D9008A3D7A /* icon_baochun.png in Resources */,
+				D2541C5F19FBCE8A003DDF5F /* CustomTableViewCell.xib in Resources */,
+				D21130D319FC36D9008A3D7A /* button_off.png in Resources */,
+				D21130C419FC36D9008A3D7A /* icon_qzone.png in Resources */,
+				D21130CD19FC36D9008A3D7A /* 首页_PxCook.png in Resources */,
+				D21130DC19FC36D9008A3D7A /* 瀑布流_PxCook.png in Resources */,
+				D21130D119FC36D9008A3D7A /* banner-4.png in Resources */,
+				D21130D619FC36D9008A3D7A /* icon_queding.png in Resources */,
+				D21130D719FC36D9008A3D7A /* 心情标签_PxCook.png in Resources */,
+				D21130D419FC36D9008A3D7A /* button_on.png in Resources */,
+				D21130CF19FC36D9008A3D7A /* banner-2.png in Resources */,
+				D21130D919FC36D9008A3D7A /* icon_left.png in Resources */,
+				D21130C619FC36D9008A3D7A /* yinying.png in Resources */,
+				D21130DA19FC36D9008A3D7A /* tips.png in Resources */,
+				D21130D519FC36D9008A3D7A /* icon_back.png in Resources */,
+				D21130C519FC36D9008A3D7A /* icon_wechat.png in Resources */,
+				D21130CB19FC36D9008A3D7A /* button_zhuanji.png in Resources */,
+				D2B581CD19F94F9A0031A745 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B581D319F94F9A0031A745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B581BC19F94F9A0031A745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29148FE19FBE44800309E8A /* CollectionViewController.swift in Sources */,
+				D291490219FBE96E00309E8A /* CustomColletionViewCell.swift in Sources */,
+				D24C87EC19FC4DBE0047A9CA /* SpecialViewController.swift in Sources */,
+				D2867EF619FB3DFF008EBB43 /* TextViewController.swift in Sources */,
+				D243EECE19FBB3AF00296EBD /* TableViewController.swift in Sources */,
+				D291490B19FC149300309E8A /* AnsynImageView.swift in Sources */,
+				D2541C6119FBD308003DDF5F /* CustomTableViewCell.swift in Sources */,
+				D24C87EE19FC626D0047A9CA /* LargeViewController.swift in Sources */,
+				D2B581C819F94F9A0031A745 /* ViewController.swift in Sources */,
+				D2FC0D7719FA109000E9DDE7 /* SendMsgToWeChatViewController.m in Sources */,
+				D28BB27D19FB85B70076343B /* TagViewController.swift in Sources */,
+				D2B581E619F950620031A745 /* ImageViewController.swift in Sources */,
+				D2B581C619F94F9A0031A745 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B581D119F94F9A0031A745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B581DC19F94F9A0031A745 /* SorryMitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2B581D719F94F9A0031A745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B581BF19F94F9A0031A745 /* SorryMito */;
+			targetProxy = D2B581D619F94F9A0031A745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2B581C919F94F9A0031A745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B581CA19F94F9A0031A745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2B581CE19F94F9A0031A745 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B581CF19F94F9A0031A745 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2B581DD19F94F9A0031A745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2B581DE19F94F9A0031A745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B581E019F94F9A0031A745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: trevor jiang (WG7QG6RV96)";
+				INFOPLIST_FILE = SorryMito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SorryMito",
+				);
+				PRODUCT_NAME = SorryMito;
+				PROVISIONING_PROFILE = "907e1441-fa4c-4ce6-8ea5-b449fb4ea143";
+				SWIFT_OBJC_BRIDGING_HEADER = "SorryMito/SorryMito-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2B581E119F94F9A0031A745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: trevor jiang (WG7QG6RV96)";
+				INFOPLIST_FILE = SorryMito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SorryMito",
+				);
+				PRODUCT_NAME = SorryMito;
+				PROVISIONING_PROFILE = "907e1441-fa4c-4ce6-8ea5-b449fb4ea143";
+				SWIFT_OBJC_BRIDGING_HEADER = "SorryMito/SorryMito-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D2B581E319F94F9A0031A745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SorryMitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SorryMito.app/SorryMito";
+			};
+			name = Debug;
+		};
+		D2B581E419F94F9A0031A745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SorryMitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SorryMito.app/SorryMito";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B581BB19F94F9A0031A745 /* Build configuration list for PBXProject "SorryMito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B581DD19F94F9A0031A745 /* Debug */,
+				D2B581DE19F94F9A0031A745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B581DF19F94F9A0031A745 /* Build configuration list for PBXNativeTarget "SorryMito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B581E019F94F9A0031A745 /* Debug */,
+				D2B581E119F94F9A0031A745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B581E219F94F9A0031A745 /* Build configuration list for PBXNativeTarget "SorryMitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B581E319F94F9A0031A745 /* Debug */,
+				D2B581E419F94F9A0031A745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B581B819F94F9A0031A745 /* Project object */;
+}
