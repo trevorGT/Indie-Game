@@ -17,7 +17,7 @@ class SpecialViewController: UIViewController {
         }
         let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         var url =  NSURL(string: "http://157.7.205.205:8080/sorry/getImgByID?info=\(sender.tag)")
-        var str:String = NSString.stringWithContentsOfURL(url, encoding:0x80000632, error: nil)
+        var str:String = NSString.stringWithContentsOfURL(url!, encoding:0x80000632, error: nil)
         println(str)
         
         var myArray = str.componentsSeparatedByString("|")
